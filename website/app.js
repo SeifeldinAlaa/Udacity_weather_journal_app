@@ -15,7 +15,7 @@ let newDate = (d.getMonth() + 1) + '.' + d.getDate() + '.' + d.getFullYear();
 // Personal API Key for OpenWeatherMap API
 
 let baseURL = 'http://api.openweathermap.org/data/2.5/weather?units=metric&zip=';
-let apiKey = '&appid=1eca0b0e2410dec83d833cdc002bbf91';
+let apiKey = '&appid=';
 
 // Get weather data from OpenWeatherMap API
 const getWeatherFromExternalAPI = async () => {
